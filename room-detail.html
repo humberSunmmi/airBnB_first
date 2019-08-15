@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Room-detail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="styles_rooms.css">
+    <style type="text/css">
+        #mainMenu {
+            background-color: yellow;
+        }
+        
+        .darkMenu {
+            font-weight: bolder;
+        }
+        
+        #navbarBasicExample .navbar-start a.navbar-item:hover {
+            background-color: yellow;
+            color: grey;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+    <script>
+        $(function() {
+            $("#datepicker1").datepicker();
+            $("#datepicker2").datepicker();
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- MOBILE MENU - HAMBERGER -->
+    <header class="navbar" id="navHeight">
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+            <div class="navbar-menu" id="navMenu">
+              <a class="navbar-item" href="index.html">
+            Home
+            </a>
+            <a class="navbar-item" href="searching.html">
+            Plan & Book
+           </a>
+            <a class="navbar-item" href="experience.html">
+            About this Place
+            </a>
+            <br>
+            <a class="button is-danger login" href="login-page.html">
+              Login
+            </a>
+            <a class="button is-danger logout" href="#" id="logout_btn">Logout</a>
+            </div>
+        <!-- End MOBILE MENU - HAMBERGER -->
+        <!-- Main menu-->
+        <div class="level" id="navbarMenuHeroC">
+            <p class="level-item has-text-centered" id="logo">
+              <a href="index.html"><img src="img/logo-fixed1.png" alt="" style="height: 50px;"></a>
+            </p>
+            <p class="control">
+                <input class="input is-medium is-danger" type="text" placeholder="Search for where you want to go">
+            </p>
+
+            <p class="level-item has-text-centered" id="level-item-1">
+                <a class="link is-info" id="about" href="experience.html">About this Place</a>
+            </p>
+            <p class="level-item has-text-centered" id="level-item-1">
+                <a class="button is-danger login" href="login-page.html">Login</a>
+                <a class="button is-danger logout" href="#" id="logout_btn">Logout</a>
+            </p>
+        </div>
+    </header>
+
+    <!--About Room -->
+    <section class="section">
+        <div class="container">
+            <div class="columns is-vcentered" id="imgSection">
+                <div class="column">
+                    <h2 class="title"> Room </h2>
+                    <p>
+                        We are offering a clean, well presented and recently refurbished rooms.
+                    </p>
+                </div>
+                <div class="column" id="imgLeft">
+                    <img src="img/bed23.jpg" class="whoWeAreImages">
+                </div>
+                <!-- // image-->
+                <div class="column" id="imgRight">
+                    <img src="img/sofa18.jpg" class="whoWeAreImages">
+                </div>
+                <!-- // image-->
+            </div>
+        </div>
+        <!-- container -->
+    </section>
+    <!-- End  -->
+    <!-- BIG SECTION WITH FORM-->
+    <section class="hero is-medium" id="footerSection">
+        <div class="hero-body" id="conBody">
+            <div class="column is-5 is-offset-1 sunmi">
+                <p id="tiTle">Find homes in Canada on
+                    <br>Airbnb </p>
+                <p id="moreInfo">Discover entire homes and private rooms
+                    <br>perfect for any trip.</p>
+                <br>
+                <br>
+                <div class="field">
+                    <label class="label">When</label>
+                    <div class="control has-icons-left" id="date-info">
+                        <input class="input " type="text" id="datepicker1" name="date" placeholder="CHECK-IN">
+                        <input class="input" type="text" id="datepicker2" name="date" placeholder="CHECKOUT">
+                    </div>
+                </div>
+                <!--field -->
+                <div class="field is-grouped">
+                    <div class="control btn_booking">
+                        <a class="button is-danger" id="bookingButton">Booking</a>
+                    </div>
+                    <div class="control  btn_cancel">
+                        <button class="button is-text"> <a class="canCel" href="index.html">Cancel</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+     <!-- Footer  -->
+      <div class="hero-foot">
+     <nav class="tabs">
+        <ul>
+          <li class="is-active"><a class="navbar-item">
+                &copy; 2019 Sunmi J.
+              </a></li>
+          <li><a class="navbar-item" href="https://www.cookiebot.com/en/privacy-policy-cookies">
+                Privacy Policy
+              </a></li>
+          <li><a class="navbar-item">
+                Terms of Service
+              </a></li>
+        </ul>
+    </nav>
+  </div> <!-- End Footer -->
+
+    <script type="text/javascript" src="js/roomDetails.js"></script>
+    <script type="text/javascript" src="js/login.control.js"></script>
+    <script type="text/javascript" src="js/mobile.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>airbnb</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css"> 
+        
+        #mainMenu {
+            background-color: yellow;
+        }
+        .darkMenu  {
+            font-weight:bolder;
+        }
+        
+        #navbarBasicExample .navbar-start a.navbar-item:hover {
+            background-color: yellow;
+            color:grey;
+        }
+    </style>
+      </head>
+  
+  <body>
+  <!-- Hero head: will stick at the top -->
+    <!-- MOBILE MENU - HAMBERGER -->
+    <header class="navbar" id="navHeight">
+          <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          </a>
+      <div class="navbar-menu" id="navMenu">
+        <a class="navbar-item" href="index.html">
+        Home
+      </a>
+         <a class="navbar-item" href="searching.html">
+            Plan & Book
+          </a>
+          <a class="navbar-item" href="experience.html">
+            About this Place
+          </a>
+        <br>
+            <a class="button is-danger login" href="login-page.html">
+              Login
+            </a>
+        <a class="button is-danger logout" href="#" id="logout_btn">Logout</a>
+</div>
+      <!-- End MOBILE MENU - HAMBERGER -->
+      
+        <div class="level" id="navbarMenuHeroC">
+         <p class="level-item has-text-centered" id="level-item-1">
+    <a class="link is-info" href="index.html">Home</a>
+  </p>
+  <p class="level-item has-text-centered" id="level-item-1">
+    <a class="link is-info" href="searching.html">Plan & Book</a>
+  </p>
+  <p class="level-item has-text-centered" id="logo" >
+    <img src="img/logo-fixed1.png" alt="" style="height: 60px;">
+  </p>
+  <p class="level-item has-text-centered" id="level-item-1">
+    <a class="link is-info" href="experience.html">About this Place</a>
+  </p> 
+  <p class="level-item has-text-centered" id="level-item-1">
+    <a class="button is-danger login" href="login-page.html">Login</a>
+    <a class="button is-danger logout" href="#" id="logout_btn">Logout</a>
+  </p>    
+      </div>
+    </header>
+
+  <!-- Main banner -->
+<section class="hero is-light is-fullheight" id="bannerBg">      
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title" id="welCome">
+        Welcome to
+      </h1>
+      <h2 class="title" id="airBnb">
+        airbnb
+      </h2>
+    </div>
+  </div>
+</section>
+      <section class="section">
+      <div class="container has-text-centered" id="whoWeAreContainer">
+        <div class="columns">
+          <div class="column is-4 is-offset-4">
+            <h1 class="title" id="whoWeAreHeader">
+              Bed and Breakfast
+            </h1>
+            <p class="subtitle" id="whoWeAreDescription">
+              Day or night, we’re here for you. Talk to our support team from anywhere in the world, any hour of day. From fresh-pressed sheets to tips on where to get the best brunch, our hosts are full of local hospitality.
+            </p>
+          </div>  <!-- //column is-4 -->
+        </div> <!-- //columns -->
+      </div> <!-- //container -->
+    </section>
+    <!-- End -->
+      
+      <!-- Explore Rooms -->
+    <section class="section greySection">
+      <div class="container has-text-centered" >
+        <h1 class="title">
+          Explore
+        </h1>
+        <div class="columns">
+          <div class="column">
+            <img src="img/bed23.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"><a href="bookingpage_rooms.html#quebec"> Quebec </a> </h2>
+          </div>  
+          <div class="column">
+            <img src="img/bed4.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> <a href="bookingpage_rooms.html#montreal">Montreal</a> </h2>
+          </div> 
+          <div class="column">
+            <img src="img/bed7.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> <a href="bookingpage_rooms.html#vancouver">Vancouver </a> </h2>
+          </div> 
+            <div class="column">
+            <img src="img/bed1.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> 
+              <a href="bookingpage_rooms.html#toronto"> Toronto </a> </h2>
+          </div>  
+        </div> <!-- //columns -->
+      </div> <!-- //container -->
+    </section>
+    <!-- Explore Rooms end -->
+      
+      <!-- Home -->
+    <section class="section">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <h2 class="title" id="hoMes"><a href="bookingpage_rooms.html"> Homes </a></h2>
+            <p>
+              We listen from the heart, think empathetically, and help each other grow.
+            </p>
+          </div> 
+          <div class="column">
+            <img src="img/livingroom_booking.jpg" class="whoWeAreImages">
+          </div> <!-- // image-->
+        </div>
+      </div> <!-- container -->
+    </section>
+    <!-- End  -->
+
+    <!-- Experience -->
+    <section class="section greySection">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <img src="img/talking2.jpg" class="whoWeAreImages">
+          </div> <!-- // image-->
+          <div class="column">
+            <h2 class="title" id="exPer"><a href="experience.html"> Experiences </a></h2>
+            <p>
+              We think deeply, question conventions, and strive to never stop learning.
+            </p>
+          </div> <!--// nonsense marketing text -->
+        </div>
+      </div> <!-- container -->
+    </section>
+    <!-- END  -->
+
+    <!-- Restaurant -->
+    <section class="section">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <h2 class="title" id="reSta"> <a href="restaurant.html"> Restaurants </a></h2>
+            <p>
+              We challenge the status quo to make things with a sense of purpose.
+            </p>
+          </div> 
+          <div class="column">
+           <img src="img/restaurant3.jpg" class="whoWeAreImages">
+          </div> <!-- // image-->
+        </div>
+      </div> <!-- container -->
+    </section>
+    <!-- End  -->   
+      
+      <!-- BIG SECTION WITH FORM-->
+    <section class="hero is-medium" id="footerSection">
+      <div class="hero-body" id="conBody">
+            <div class="column is-5 is-offset-1 sunmi">
+              <p id="tiTle">Find homes in Canada on<br>Airbnb </p>
+            <p id="moreInfo">Discover entire homes and private rooms<br>perfect for any trip.</p>
+            <br>
+            <br>
+            <div class="field login">
+                <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input" id="email" type="email" placeholder="Email">
+                    <span class="icon is-small is-left">
+                     <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="field login">
+                <label class="label">Password</label>
+                <div class="control has-icons-left">
+                    <input class="input" id="password" type="password" placeholder="Password">
+                    <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">When</label>
+                <div class="control has-icons-left" id="date-info">
+                    <input class="input " type="text" id="datepicker1" name="date" placeholder="CHECK-IN">
+                    <input class="input" type="text" id="datepicker2" name="date" placeholder="CHECKOUT">
+                </div>
+            </div> 
+
+            <!-- Where & Rooms -->
+              <div class="field">
+              <label class="label" id="wheRe">Where</label>
+              <div class="control">
+                <div class="select">
+                  <select>
+                      <option>Toronto</option>
+                      <option>Montreal</option>
+                      <option>Quebec</option>
+                      <option>Vancouver</option>
+                  </select>
+                </div> <!-- .select --> 
+              </div> <!-- .control -->
+            </div> <!-- .field -->
+            <div class="field">
+              <label class="label" id="how">Room</label>
+              <div class="control">
+                <div class="select">
+                  <select>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>Over 5</option>
+                  </select>
+                </div>
+              </div>
+            </div> <!--.field -->
+<br>
+            <div class="field is-grouped">
+                <div class="control">
+                    <a class="button is-danger" id="searchingButton" >Search</a>
+                </div>
+                <div class="control">
+                    <button class="button is-text">Cancel</button>
+                </div>
+            </div>
+            </div>
+          </div>
+    </section>
+    <!-- END BIG SECTIN WITH FORM -->
+    
+    <!-- Footer menu -->
+      <div class="hero-foot">
+    <nav class="tabs">
+      <div class="container">
+        <ul>
+          <li class="is-active"><a class="navbar-item">
+                &copy; 2019 Sunmi J.
+              </a></li>
+          <li><a class="navbar-item" href="https://www.cookiebot.com/en/privacy-policy-cookies">
+                Privacy Policy
+              </a></li>
+          <li><a class="navbar-item">
+                Terms of Service
+              </a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+    <script type="text/javascript" src="js/mobile.js"></script>
+    <script type="text/javascript" src="js/login.control.js"></script>
+    <script type="text/javascript" src="js/searching.js"></script>
+  </body>
+</html>
+
+
+
+

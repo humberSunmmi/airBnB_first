@@ -1,0 +1,436 @@
+body {
+    font-family:'Montserrat', sans-serif;
+}
+
+/* HERO SECTION CSS */
+/* ---------------- */
+a {
+    color: #fff; 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar {
+    text-align: center;
+    transition-duration: .5s;
+    position: fixed;
+    width: 100%;
+    background-color: gray;
+    z-index: 2;
+}
+
+#bannerBg {
+    background-image:url(img/brigus-and-cupids-main-header.jpg);
+    position: inherit;
+    background-size: cover;
+    height: 850px;
+    color: #fff!important;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#welCome {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 57px;
+  text-align: center;
+  color: #C71585;
+  text-shadow:
+         0px 1px 0px #FFD, 
+         -0px 1px 0px #FFD, 
+         -0px -1px 0px #FFD,
+         0px -1px 0px #FFD, 
+        
+         0px 2px 0px #FFD, 
+         -0px 2px 0px #FFD, 
+         -0px -2px 0px #FFD, 
+         0px -2px 0px #FFD, 
+         
+         0px 3px 0px #FFD, 
+         -0px 3px 0px #FFD, 
+         -0px -3px 0px #FFD, 
+         0px -3px 0px #FFD, 
+
+         1px 1px 0px #FFD, 
+         -1px 1px 0px #FFD, 
+         -1px -1px 0px #FFD, 
+         1px -1px 0px #FFD, 
+         
+         1px 2px 0px #FFD, 
+         -1px 2px 0px #FFD, 
+         -1px -2px 0px #FFD, 
+         1px -2px 0px #FFD, 
+         
+         1px 3px 0px #FFD, 
+         -1px 3px 0px #FFD, 
+         -1px -3px 0px #FFD, 
+         1px -3px 0px #FFD, 
+
+         2px 1px 0px #FFD, 
+         -2px 1px 0px #FFD,
+         -2px -1px 0px #FFD, 
+         2px -1px 0px #FFD, 
+         
+         2px 2px 0px #FFD, 
+         -2px 2px 0px #FFD, 
+         -2px -2px 0px #FFD, 
+         2px -2px 0px #FFD, 
+         
+         2px 3px 0px #FFD, 
+         -2px 3px 0px #FFD, 
+         -2px -3px 0px #FFD, 
+         2px -3px 0px #FFD, 
+         
+         0px 0px 0px hsla(0,0%,0%,0), 
+         -6px 5px 5px black;
+}
+#airBnb {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 63px;
+  text-align: center;
+  color: #C71585;
+  text-shadow:
+         0px 1px 0px #FFD, 
+         -0px 1px 0px #FFD, 
+         -0px -1px 0px #FFD,
+         0px -1px 0px #FFD, 
+        
+         0px 2px 0px #FFD, 
+         -0px 2px 0px #FFD, 
+         -0px -2px 0px #FFD, 
+         0px -2px 0px #FFD, 
+         
+         0px 3px 0px #FFD, 
+         -0px 3px 0px #FFD, 
+         -0px -3px 0px #FFD, 
+         0px -3px 0px #FFD, 
+
+         1px 1px 0px #FFD, 
+         -1px 1px 0px #FFD, 
+         -1px -1px 0px #FFD, 
+         1px -1px 0px #FFD, 
+         
+         1px 2px 0px #FFD, 
+         -1px 2px 0px #FFD, 
+         -1px -2px 0px #FFD, 
+         1px -2px 0px #FFD, 
+         
+         1px 3px 0px #FFD, 
+         -1px 3px 0px #FFD, 
+         -1px -3px 0px #FFD, 
+         1px -3px 0px #FFD, 
+
+         2px 1px 0px #FFD, 
+         -2px 1px 0px #FFD,
+         -2px -1px 0px #FFD, 
+         2px -1px 0px #FFD, 
+         
+         2px 2px 0px #FFD, 
+         -2px 2px 0px #FFD, 
+         -2px -2px 0px #FFD, 
+         2px -2px 0px #FFD, 
+         
+         2px 3px 0px #FFD, 
+         -2px 3px 0px #FFD, 
+         -2px -3px 0px #FFD, 
+         2px -3px 0px #FFD, 
+         
+         0px 0px 0px hsla(0,0%,0%,0), 
+         -6px 5px 5px black;
+}
+
+.level {
+  padding: 1.5em 2em;
+  position: fixed;
+  width: 100%;
+  background-color: gray;
+  font-weight: bold;  
+  z-index: 1;
+  height: 70px;     
+}
+
+.bannerText {
+  font-size: 3em;  /* 48px */
+  letter-spacing:3px;
+  font-weight:300;
+  position:absolute;
+  left:-10000px;;
+}
+
+#heroButton {
+  background-color:#f9f222;
+  padding-top:24px;
+  padding-bottom:24px;
+  padding-left:36px;
+  padding-right:36px;
+
+  text-transform:uppercase;
+  font-weight:800;
+  letter-spacing:2px;
+  font-size:12px;
+  position:absolute;
+  left:-10000px;
+}
+
+
+a#about {
+    margin-right: -90px;
+/*    margin-left: 80px;*/
+    text-align: right;
+    font-size: large;
+    font-weight: 450;
+}
+
+input#search {
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+/* --------------- */
+
+/* Bed & Breakfast CSS */
+#whoWeAreContainer {
+  margin-top:4em;
+  margin-bottom:4em;
+}
+#whoWeAreHeader {
+  font-size:2em;  /* 16* 2 = 32px*/
+  letter-spacing:1px;
+  font-weight: 500;
+}
+#whoWeAreHeader h1 {
+/*  font-weight: bold;*/
+}
+#whoWeAreDescription {
+  margin-top:24px;
+  font-size:19px;
+}
+
+/* -------------- */
+
+/* Romms CSS */
+.greySection {
+  background-color:#f9f9f9;
+  /*background-color:yellow;*/
+}
+img.ourRoomImages {
+  width:250px;
+  height:230px;
+  border-radius: 20px;
+}
+
+h2.ourRoomSubHeader {
+  font-size:1em; /* 16px = 1em */
+  font-weight:800;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.ourRoomSubHeader a {
+  color: #000;
+}
+img.whoWeAreImages {
+    border-radius: 20px;
+    height: 300px;
+}
+
+/* FOOTER HERO SECTION CSS */
+#footerSection {
+     background-image: linear-gradient(345deg,#d253b1,#fb6f4a);
+}
+
+.sunmi {
+  border-radius: 15px;
+  width: 100%;
+  background-color:lightpink;
+  color: darkblue;  
+  padding-left: 40px;
+  padding-bottom: 25px;
+}
+
+#how {
+  width: 18%;
+}
+#whEre {
+  width: 15%;
+}
+
+#footer{
+  position: relative;
+  width:1200px;
+  height:60px;
+  background-color:#2d2d2d;
+  overflow:hidden;
+  bottom:0;
+  margin:0 auto;
+  margin-bottom:10px;
+  color:#6b6865; 
+}
+
+input[type=text]{
+  margin:10px 0;
+  padding:10px;
+  font-family:'Montserrat', sans-serif;
+}
+textarea{
+  margin-top:10px;
+  padding:10px;
+  font-family:'Montserrat', sans-serif;
+}
+
+.select {
+      z-index: 1;
+}
+
+#datepicker1{
+   width: 45%;
+}
+
+#datepicker2{
+   width: 45%;
+}
+#email {
+    width: 90%;
+    
+}
+#password {
+    width: 90%; 
+}
+#tiTle {
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+#moreInfo {
+    font-family:'Montserrat', sans-serif;
+    font-size: 18.5px;
+}
+
+.ui-state-default {
+    padding: .2em 2em 0;
+    width: 17em;
+    color: lightpink;
+    padding: .2em 0;
+    color: lightpink;
+    top: 420px;
+    left: 350px;
+    z-index: 1;
+}
+
+tbody{
+    vertical-align: center;
+    padding-left: 10px;
+}
+
+table#datepicker1 {
+  border-style: none;
+   }
+table {
+    padding: 2em 2em;
+    text-align: justify;
+    padding: .5em 2em;
+    border-style: none;
+}
+
+table.ui-datepicker-calendar {
+    font-family: 'Josefin Sans', sans-serif;
+    border-collapse: none;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: .2em 2em 0 0;
+    width: 15em;;
+    padding-left: 20px;
+    background-color: #d253b1;
+    z-index: 1000000000;
+    border-style: hidden;
+}
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+    display: block;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+}
+
+.ui-datepicker-header {
+    padding: .2em 0;
+    position: relative;
+    line-height: 1.3;
+}
+
+span {
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+thead {
+  font-family: 'Josefin Sans', sans-serif;
+  padding-left: 10px;
+}
+
+span.ui-datepicker-month.ui-datepicker-year {
+   font-weight: bold;
+}
+.ui-icon.ui-icon-circle-triangle-w {
+  color: #000;
+  text-align: left;
+  left: 2px;
+}
+.ui-icon.ui-icon-circle-triangle-e {
+  text-align: right;
+  color: #000;
+  right: 2px;
+}
+
+.ui-widget .ui-widget-content .ui-helper-clearfix .ui-corner-all {
+    padding: .2em 2em 0;
+}
+
+div#marGin {
+  margin-top: 70px;
+}
+
+#hoMes a {
+  color: #000;
+}
+#exPer a {
+  color: #000;
+}
+
+#reSta a {
+  color: #000;
+}
+
+.section {
+    padding: 7rem 1.5rem;
+}
+
+
+
+@media (min-width: 10px) and (max-width: 1080px) {
+    #level-item-1 {
+    flex-grow: 1;
+    display: none;
+}
+    #navbarMenuHeroC {
+        display: none;
+  }
+    #navHeight {
+    height: 65px;
+}
+  .sunmi {
+    width: 100%;
+  }
+  #how {
+     font-size: 14px;
+}
+   #whEre {
+      font-size: 14px;
+}
+ 

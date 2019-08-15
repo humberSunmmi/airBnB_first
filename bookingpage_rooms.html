@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>airbnb</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="styles_rooms.css">
+    <style type="text/css">
+        #mainMenu {
+            background-color: yellow;
+        }
+        .darkMenu  {
+            font-weight:bolder;
+        }
+        
+        #navbarBasicExample .navbar-start a.navbar-item:hover {
+            background-color: yellow;
+            color:grey;
+        }
+    </style>
+    </head>
+  <body>
+    
+    <!-- MOBILE MENU - HAMBERGER -->
+    <header class="navbar" id="navHeight">
+          <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          </a>
+      <div class="navbar-menu" id="navMenu">
+        <a class="navbar-item" href="index.html">
+        Home
+      </a>
+         <a class="navbar-item" href="searching.html">
+            Plan & Book
+          </a>
+          <a class="navbar-item" href="experience.html">
+            About this Place
+          </a>
+        <br>
+            <a class="button is-danger login" href="login-page.html">
+              Login
+            </a>
+        <a class="button is-danger logout" href="#" id="logout_btn">Logout</a>
+      </div>
+      <!-- End MOBILE MENU - HAMBERGER -->
+      <!--  Start Menu bar -Fixed- -->
+      <div class="level" id="navbarMenuHeroC">
+          <p class="level-item has-text-centered" id="logo" >
+  <a href="index.html"> <img src="img/logo-fixed1.png" alt="" style="height: 50px;"></a>
+  </p>
+        <p class="control"> <input class="input is-medium is-danger" id="search-criteria" type="text" placeholder="Search for where you want to go"/> </p>
+         <p class="control"> <input class="button is-small is-danger" id="search"  type="submit" value="search">
+         </p>
+  
+  <p class="level-item has-text-centered" id="level-item-1">
+    <a class="link is-info" id="about" href="experience.html">About this Place</a>
+  </p> 
+  <p class="level-item has-text-centered" id="level-item-1">
+    <a class="button is-danger login" href="login-page.html">Login</a>
+    <a class="button is-danger logout" href="#" id="logout_btn">Logout</a>
+  </p>
+      </div>    
+    </header>
+    
+     <!-- Main -->
+     <!-- Toronto -->
+    <section class="section greySection">
+      <div class="container has-text-centered containerBottom"  >
+        <h1 class="title" id="toronto">
+        TORONTO
+        </h1>
+        <div class="columns">
+          <div class="column">
+            <img src="img/house100.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> House </h2>
+          </div>  
+          <div class="column">
+            <img src="img/bed1.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> <a href="room-detail5.html"> One bed </a> </h2>
+          </div> 
+          <div class="column">
+            <img src="img/livingroom-pretty.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> <a href="room-detail6.html"> Condo </a></h2>
+          </div> 
+            <div class="column">
+            <img src="img/bedroom7.jpg" class="ourRoomImages">
+              <h2 class="ourRoomSubHeader"> <a href="room-detail7.html"> Two bed </a></h2>
+          </div>  
+        </div> 
+        <!-- //columns -->
+      </div> 
+      <!-- //container -->
+    </section>
+    <!-- END Toronto -->
+   
+      <!-- Quebec -->
+    <section class="section greySection">
+      <div class="container has-text-centered containerBottom" >
+        <h1 class="title" id="quebec">
+          QUEBEC
+        </h1>
+        <div class="columns">
+          <div class="column">
+            <img src="img/house101.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> <a href="room-detail2.html">House </a></h2>
+          </div>  
+          <div class="column">
+            <img src="img/bed23.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader" > <a href="room-detail.html">One bed </a></h2>
+          </div> 
+          <div class="column">
+            <img src="img/livingroom-yellow.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"><a href="room-detail3.html"> Condo </a></h2>
+          </div> 
+            <div class="column">
+            <img src="img/bed5.jpg" class="ourRoomImages">
+              <h2 class="ourRoomSubHeader"> <a href="room-detail4.html">Two bed </a></h2>
+          </div>  
+        </div> 
+        <!-- //columns -->
+      </div> 
+      <!-- //container -->
+    </section>
+    <!-- END Quebec -->
+   
+   
+      <!-- Montreal -->
+    <section class="section greySection">
+      <div class="container has-text-centered containerBottom"  >
+        <h1 class="title" id="montreal">
+          MONTREAL
+        </h1>
+        <div class="columns">
+          <div class="column">
+            <img src="img/house102.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> House </h2>
+          </div>  
+          <div class="column">
+            <img src="img/bedroom13.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader">  <a href="room-detail8.html">One bed </a></h2>
+          </div> 
+          <div class="column">
+            <img src="img/sofa2.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> <a href="room-detail9.html"> Condo</a> </h2>
+          </div> 
+            <div class="column">
+            <img src="img/bed4.jpg" class="ourRoomImages">
+              <h2 class="ourRoomSubHeader"> <a href="room-detail10.html"> Two bed </a> </h2>
+          </div>  
+        </div> 
+        <!-- //columns -->
+      </div> 
+      <!-- //container -->
+    </section>
+    <!-- END Montreal  -->
+    
+     <!-- Vancouver -->
+    <section class="section greySection">
+      <div class="container has-text-centered containerBottom" >
+        <h1 class="title" id="vancouver">
+          VANCOUVER
+        </h1>
+        <div class="columns">
+          <div class="column">
+            <img src="img/house200.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> House </h2>
+          </div>  
+          <div class="column">
+            <img src="img/bed7.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> <a href="room-detail11.html"> One bed</a></h2>
+          </div> 
+          <div class="column">
+            <img src="img/livingroom.jpg" class="ourRoomImages">
+            <h2 class="ourRoomSubHeader"> <a href="room-detail12.html"> Condo </a></h2>
+          </div> 
+            <div class="column">
+            <img src="img/bed9.jpg" class="ourRoomImages">
+              <h2 class="ourRoomSubHeader"> <a href="room-detail13.html"> Two bed </a> </h2>
+          </div>  
+        </div> 
+        <!-- //columns -->
+      </div> 
+      <!-- //container -->
+    </section>
+    <!-- END Vancouver -->
+    
+    <!-- Footer  -->
+      <div class="hero-foot">
+    <nav class="tabs">
+      <div class="container">
+        <ul>
+          <li class="is-active"><a class="navbar-item">
+                &copy; 2019 Sunmi J.
+              </a></li>
+          <li><a class="navbar-item" href="https://www.cookiebot.com/en/privacy-policy-cookies">
+                Privacy Policy
+              </a></li>
+          <li><a class="navbar-item">
+                Terms of Service
+              </a></li>
+        </ul>
+      </div>
+    </nav>
+  </div> <!-- End Footer -->
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/login.control.js"></script>
+    <script type="text/javascript" src="js/mobile.js"></script>
+    <script type="text/javascript" src="js/inputsearch.js"></script>
+    
+  </body>
+</html>
+
+   
